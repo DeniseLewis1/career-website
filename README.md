@@ -1,2 +1,2 @@
-# career-website
-A career website
+# careers-website
+A careers website
