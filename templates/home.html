@@ -20,7 +20,11 @@
       <h2 class="text-center mt-2 mb-4">About</h2>
       <p class="lead">Shortbread cotton candy caramels chocolate dragée muffin cupcake marzipan candy. Shortbread pie cake shortbread candy donut icing. Cotton candy jelly danish powder powder. Dragée toffee marshmallow candy canes powder marzipan apple pie marshmallow. Tootsie roll oat cake dragée candy canes sweet roll cake wafer marshmallow. Sweet roll sweet marzipan cake chocolate cake tootsie roll jelly beans. Dragée ice cream topping cheesecake muffin powder cake wafer. Wafer candy pie powder donut lollipop.</p>
       <h2 class="text-center mt-2 mb-4">Openings</h2>
-      <p>TODO - Show jobs here</p>
+      <div>
+        {% for job in jobs %}
+          {% include "jobitem.html" %}
+        {% endfor %}
+      </div>
       <div class="text-center">
         <button class="btn btn-primary btn-lg">Contact Us</button>
         <p class="mt-4">Copyright 2023</p>
